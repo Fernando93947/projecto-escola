@@ -1,0 +1,147 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+    width: 100%;
+    align-items:center;
+    
+}
+
+.menu{
+    flex: 70%;
+    padding: 10px 15px;
+    height: 50px;
+    /**border: 2px solid black;*/
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgb(69, 238, 173), rgb(248, 188, 49));
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background: rgb(10, 177, 132);
+}
+
+#botao:hover{
+    background-color: rgb(158, 101, 17);
+    color: white;
+}
+
+/*CORPO DA DIV*/
+
+
+
+
+.div-corpo{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+     
+}
+
+
+
+
+
+
+
+/*DIV CORPO*/
+
+
+/*CONTEÚDO*/
+
+.refe{
+    margin-top: 60px;
+    text-align:center;
+}
+.conteudo{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    background-color: white;
+    width: 90%;
+    height: 300px;
+}
+
+.paragrafo{
+    display: flex;
+    text-align: justify;
+    width: 300px;
+
+}
+
+/*EQUIPA*/
+
+.equipa{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    text-align: justify;
+   
+}
+
+.txtEquipa{
+    text-align: center;
+}
+
+
+/*RODAPÉ*/
+.rodape{
+    background-image: linear-gradient(90deg, rgb(69, 238, 173), rgb(248, 188, 49));
+    width: 100%;
+    height: 300px;
+    border-radius: 0px 100px 0px 100px ;
+}
+
+
+.icone{
+    margin-top: 0.5%;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-left: 2%;
+    border: 2px solid red;
+}
+
+.texto{
+    background-color: red;
+}
+
+.msg{
+    height: 200px;
+}
+
